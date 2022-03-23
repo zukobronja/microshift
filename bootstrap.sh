@@ -34,6 +34,11 @@ echo "Copy Kubeconfig"
 mkdir ~/.kube
 sudo cat /var/lib/microshift/resources/kubeadmin/kubeconfig > ~/.kube/config
 
+echo "kubecconfig ..."
+sudo cat /var/lib/microshift/resources/kubeadmin/kubeconfig
+
+echo "\n......................................................................"
+
 sleep 5
 
 echo "Show Pods"
